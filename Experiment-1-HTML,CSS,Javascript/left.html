@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <style>
+      body{
+        background-color: sandybrown;
+      }
+      a{
+        font-size: medium;
+        font-weight:bold;
+        color: navy;
+      }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+li a {
+  display: block;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color:palegoldenrod
+}
+</style>
+</head>
+  <body>
+  <h3>Contents</h3><br>
+  <ul>
+      <li><a href="info.html" target="right">College Details</a></li>
+      <li><a href="table.html" target="right">Time Tables</a></li>  
+      <li><a href="form.html" target="right">Registration Form</a></li>
+      <li><a href="#" id="jcode" target="right">Java Script</a></li>
+  
+          <select id="jcs">
+            <option value="select">select</option>
+            <option value="game">game</option>
+            <option value="bill">Bill Generation</option>
+          </select>
+        <script>
+          const jcl=document.getElementById("jcode");
+          const jcsel=document.getElementById("jcs");
+          jcsel.addEventListener("change",function()
+          {
+            if(jcsel.value=="game"){
+              const gameUrl="game.html";
+              parent.right.location.href=gameUrl;
+            }
+            else if(jcsel.value=="bill"){
+              const billUrl="bill.html";
+              parent.right.location.href=billUrl;
+            }
+          });
+        </script></ul>
+</body>
+</html>

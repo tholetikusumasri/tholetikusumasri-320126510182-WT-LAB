@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Mouse Events</title>
+    </head>
+ <body>
+ Enter your name: <input type="text" id="fname" onkeyup="f3()">
+   <input id="inp" onmouseout="f5()" onmouseover="f1()" type="submit">
+  <input id="p" onselect="f4()" type="text" value="Java Script">
+   <button id="but" onclick="r()" >Guess</button>
+<script>
+function f4(){
+  document.getElementById("p").style.backgroundColor="cyan";
+}
+function r(){
+   document.getElementById("butt").style.color="beige";
+}
+  function f3(){
+ let x=document.getElementById("fname");
+      x.value = x.value.toLowerCase();
+}
+function f5(){
+document.getElementById("inp").style.color="red";
+}
+  function f1(){
+   document.getElementById("inp").style.color="yellow";
+}
+</script>
+</body>
+</html>

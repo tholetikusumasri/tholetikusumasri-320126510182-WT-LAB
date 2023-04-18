@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 50px;
+    color: purple;
+}
+h3{
+    text-align: center;
+    font-family: 'sans-serif';
+    color: darkorchid;
+}
+table{
+    font-size: large;
+    font-weight: bold;
+}
+.tb{
+background-color:palegoldenrod;
+}
+.lthtml{
+background-color:999ff}
+body{
+    font-weight: 100px;
+    font-family: 'sans-serif';
+    background-image:url('op.jpeg');
+    background-repeat: no-repeat;
+    background-size:2000px,1000px;
+}
+.t1{
+background-color:palegoldenrod;
+margin:auto;}
+input{
+    border-color:rgb(239, 69, 84);
+    background-color:#ffe6ff;
+    padding-bottom:10px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top:10px;
+    font-size:15px;
+    color:midnightblue;
+}
+.Gen{
+    width:auto
+
+}
+.ck{
+    width: auto;
+    height:auto;
+    margin-left:10px;
+    border-color:rgb(239, 69, 84);
+    background-color:antiquewhite;
+    border-width: 3px;
+    text-align: center;
+}
+textarea{
+    margin-left: 10px;
+    border-color:coral;
+    background-color: bisque;
+    border-width:2px;
+}
+.sub{
+    width:175px;
+    font-size: medium;
+    color:black;
+    height: 25px;
+    background-color:blueviolet;
+    padding-bottom:30px;
+
+}
+.sub:hover,.sub:focus,.sub:visited{
+    background-color:aquamarine;
+}
+.in:hover,.in:focus,.in:visited{
+    background-color:beige;
+
+
+}

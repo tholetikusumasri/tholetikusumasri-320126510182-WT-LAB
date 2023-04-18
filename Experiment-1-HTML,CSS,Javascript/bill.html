@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bill Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<h1><strong>Restaurant Bill Generator</strong></h1>
+		<br>
+		<form id="order-form">
+			<label for="appetizers">Appetizers:</label>
+			<select id="appetizers" name="appetizers">
+				<option value="0">None</option>
+				<option value="50">Mozzarella Sticks</option>
+				<option value="60">Fried Calamari</option>
+				<option value="69">Garlic Bread</option>
+			</select>
+			<br>
+			<label for="entrees">Entrees:</label>
+			<select id="entrees" name="entrees">
+				<option value="0">None</option>
+				<option value="129">Spaghetti</option>
+				<option value="299">Chicken </option>
+				<option value="169">French Fries</option>
+				<option value="109">Manchurain</option>
+				
+			</select>
+			<br>
+			<label for="drinks">Drinks:</label>
+			<select id="drinks" name="drinks">
+				<option value="0">None</option>
+				<option value="50">Fanta</option>
+				<option value="60">Coca Cola</option>
+				<option value="50">Sprite</option>
+				<option value="50">Limca</option>
+				<option value="50">Pepsi</option>
+				
+			</select>
+			<br>
+			<label for="desserts">Desserts:</label>
+			<select id="desserts" name="desserts">
+				<option value="0">None</option>
+				<option value="99">Cheesecake</option>
+				<option value="110">Tiramisu</option>
+				<option value="80">Chocolate Cake</option>
+				<option value="45">Vanilla Icecream</option>
+				<option value="55">Chocolate Icecream</option>
+				<option value="50">Butterscotch Icecream</option>
+			<br>	
+			</select>
+			<button type="button" onclick="calculateTotal()">Calculate Total</button>
+		</form>
+
+		<div id="total-container">
+			<p>Your total is: <span id="total"></span></p>
+		</div>
+	</div>
+
+	<script src="script1.js"></script>
+</body>
+</html>
